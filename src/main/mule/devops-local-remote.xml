@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="devops-local-remoteFlow" doc:id="2488bf17-d84f-4b80-9b80-50e089d10fac" >
 		<http:listener doc:name="Listener  GET /test" doc:id="cfd3d0ba-de49-4384-a8f8-fe899c356671" config-ref="HTTP_Listener_config" path="test"/>
-		<set-payload value="** Dummy Payload-Local - 900 **" doc:name="Set Payload" doc:id="a949a53b-b8c5-4df6-9f6f-42d2a69f17b8" />
+		<set-payload value="** Dummy Payload-Local - 1000 **" doc:name="Set Payload" doc:id="a949a53b-b8c5-4df6-9f6f-42d2a69f17b8" />
 		<logger level="INFO" doc:name="Logger" doc:id="990706d5-4b10-43c1-86bf-8f2bd301a153" message="** Local executed **"/>
 	</flow>
 </mule>
